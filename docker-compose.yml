@@ -21,7 +21,7 @@ services:
       - websocket
       - api
   adb:
-    image: sorccu/adb:latest
+    image: vuta/docker-adb:latest
     restart: unless-stopped
     privileged: true
     volumes:

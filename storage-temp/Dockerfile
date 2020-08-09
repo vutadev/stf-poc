@@ -1,4 +1,4 @@
-FROM openstf/stf:latest
+FROM vutadev/stf-arm64:latest
 
 USER root
 RUN mkdir data && chown stf:stf data
